@@ -1,6 +1,5 @@
 # Kattis
-This repository will welcome all my kattis submited project/programs (mostly written in C)
-(https://open.kattis.com/)
+This repository will welcome all my https://open.kattis.com/ submited project/programs (mostly written in C)
 ## Solved Problems
 
 - 3D Printed Statues (Difficulty 1.9 / Python).
