@@ -5,3 +5,4 @@ This repository will welcome all my kattis submited project/programs (mostly wri
 
 - 3D Printed Statues (Python).
 - Number Fun (C).
+- Autori (Python).
