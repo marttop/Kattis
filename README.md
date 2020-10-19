@@ -9,3 +9,4 @@ This repository will welcome all my kattis submited project/programs (mostly wri
 - Phone List (Difficulty 4.2 / C).
 - Vauvau (Difficulty 1.9 / C).
 - Tri (Difficulty 1.6 / C).
+- Kornislav (Difficulty 1.4 / C).
