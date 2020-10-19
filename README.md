@@ -4,3 +4,4 @@ This repository will welcome all my kattis submited project/programs (mostly wri
 ## Solved Problems
 
 - 3D Printed Statues (Python).
+- Number Fun (C).
