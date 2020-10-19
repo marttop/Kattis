@@ -3,6 +3,7 @@ This repository will welcome all my kattis submited project/programs (mostly wri
 
 ## Solved Problems
 
-- 3D Printed Statues (Python).
-- Number Fun (C).
-- Autori (Python).
+- 3D Printed Statues (Difficulty 1.9 / Python).
+- Number Fun (Difficulty 1.4 / C).
+- Autori (Difficulty 1.3 / Python).
+- Phone List (Difficulty 4.2 / C).
