@@ -10,3 +10,4 @@ This repository will welcome all my https://open.kattis.com/ submited project/pr
 - Tri (Difficulty 1.6 / C).
 - Kornislav (Difficulty 1.4 / C).
 - Avion (Difficulty 1.4 / C).
+- This Ain't Your Grandpa's Checkerboard (Difficulty 1.8 / C).
