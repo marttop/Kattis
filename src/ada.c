@@ -54,11 +54,18 @@ void process(char *line)
             booty = 1;
         }
         else {
+            if (base == 10 && word_array[i][0] == '0') {
+                printf("%s\n", "no");
+                return;
+            }
+            char new_tab[base + 1];
+            strncpy(new_tab, tab, base);
+            new_tab[base] = '\0';
             for (int z = 0; word_array[i][z] != '\0'; z++) {
-                char new_tab[base + 1];
-                strncpy(new_tab, tab, base);
-                new_tab[base] = '\0';
-                if (strstr(new_tab, &word_array[i][z]) == NULL) {
+                char carc[2];
+                carc[0] = word_array[i][z];
+                carc[1] = '\0';
+                if (strstr(new_tab, carc) == NULL) {
                     printf("%s\n", "no");
                     return; 
                 }
@@ -79,13 +86,11 @@ int main(void)
     nb = atoi(line);
     free(line);
     line = NULL;
-    getline(&line, &len, stdin);
-    process(line);
-    // for (int i = 0; i < nb; i++) {
-    //     getline(&line, &len, stdin);
-    //     process(line);
-    // }
-
-
+    for (int i = 0; i < nb; i++) {
+        getline(&line, &len, stdin);
+        process(line);
+        free(line);
+        line = NULL;
+    }
     return (0);
 }
